@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <script src="jquery-1.7.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <table style="width:50%;margin:auto;">
+    <thead>
+      <td colspan="2">Database</td>
+      <td colspan="2">Collection</td>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <input  type="text" 
+                  id="database" 
+                  name="database" 
+                  value="cozinha" />
+        </td>
+        <td> / </td>
+        <td>
+          <input  type="text" 
+                  id="collection"
+                  name="collection" 
+                  value="frutas" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+            <textarea id="newelement" style="width:100%;height:6em;">
+{"titulo":"ameixa","quantidade":2}
+            </textarea>
+        </td>
+        <td>
+          <input type="button" id="insert" value="insert" />  
+        </td>
+      <tr>
+      <tr>
+        <td colspan="3">
+          <textarea id="resultado" style="width:100%;height:20em;">Resultado</textarea>
+        </td>
+        <td>
+          <input type="button" id="find" value="find" />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
