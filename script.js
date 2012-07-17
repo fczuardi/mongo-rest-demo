@@ -1,6 +1,7 @@
 var db = '', 
     collection = '',
     restURL = 'http://localhost:8888/api/';
+    restURL = 'http://localhost:27080/';
 
 function updateDbValues(){
   db = $('#database')[0].value;
